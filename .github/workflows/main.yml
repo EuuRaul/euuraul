@@ -1,33 +1,53 @@
 name: generate animation
 
 on:
+  # run automatically every 24 hours
   schedule:
-    - cron: "0 */24 * * *"  # Executa a cada 24 horas
-  workflow_dispatch:  # Permite disparar manualmente a execução
+    - cron: "0 */24 * * *" 
+  
+  # allows to manually run the job at any time
+  workflow_dispatch:
+  
+  # run on every push on the master branch
   push:
     branches:
-      - master  # Executa sempre que houver push para a branch master
+    - master
     
+  
+
 jobs:
   generate:
     permissions: 
-      contents: write  # Permissões para escrever no repositório
-    runs-on: ubuntu-latest  # Usando o Ubuntu mais recente para rodar o job
-    timeout-minutes: 5  # Timeout de 5 minutos para o job
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
     
     steps:
+      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
       - name: generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3  # Usando a ação para gerar a cobra
+        uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: ${{ github.repository_owner }}  # Usando o dono do repositório
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg?palette=808080,38B000,282828  # Cobra cinza claro, contribuições verdes, fundo mais escuro
-            dist/github-contribution-grid-snake-dark.svg?palette=808080,38B000,282828  # Cobra cinza claro no modo escuro, contribuições verdes, fundo mais escuro
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
           
+          
+      # push the content of <build_dir> to a branch
+      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
       - name: push github-contribution-grid-snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0  # Usando a ação para enviar para o GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          target_branch: output  # A branch onde o arquivo gerado será armazenado
-          build_dir: dist  # Diretório com os arquivos gerados
+          target_branch: output
+          build_dir: dist
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Usando o token de autenticação do GitHub
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+#
+
+  uses: Platane/snk/svg-only@v3
+  with:
+    github_user_name: ${{ github.repository_owner }}
+    outputs: |
+      dist/github-contribution-grid-snake.svg?palette=808080,38B000,1a1a1a  # Cobra cinza claro, contribuições verdes, fundo escuro
+      dist/github-contribution-grid-snake-dark.svg?palette=808080,38B000,1a1a1a  # Cobra cinza claro no modo escuro, contribuições verdes, fundo escuro
