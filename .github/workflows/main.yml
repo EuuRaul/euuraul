@@ -42,12 +42,3 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-#
-
-  uses: Platane/snk/svg-only@v3
-  with:
-    github_user_name: ${{ github.repository_owner }}
-    outputs: |
-      dist/github-contribution-grid-snake.svg?palette=808080,38B000,1a1a1a  # Cobra cinza claro, contribuições verdes, fundo escuro
-      dist/github-contribution-grid-snake-dark.svg?palette=808080,38B000,1a1a1a  # Cobra cinza claro no modo escuro, contribuições verdes, fundo escuro
