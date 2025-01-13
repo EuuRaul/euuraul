@@ -2,32 +2,32 @@ name: generate animation
 
 on:
   schedule:
-    - cron: "0 */24 * * *"
-  workflow_dispatch:
+    - cron: "0 */24 * * *"  # Executa a cada 24 horas
+  workflow_dispatch:  # Permite disparar manualmente a execução
   push:
     branches:
-    - master
+      - master  # Executa sempre que houver push para a branch master
     
 jobs:
   generate:
     permissions: 
-      contents: write
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
+      contents: write  # Permissões para escrever no repositório
+    runs-on: ubuntu-latest  # Usando o Ubuntu mais recente para rodar o job
+    timeout-minutes: 5  # Timeout de 5 minutos para o job
     
     steps:
       - name: generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3
+        uses: Platane/snk/svg-only@v3  # Usando a ação para gerar a cobra
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: ${{ github.repository_owner }}  # Usando o dono do repositório
           outputs: |
-            dist/github-contribution-grid-snake.svg?palette=808080,38B000,1a1a1a # Cobra cinza, verde normal para contribuições, fundo escuro
-            dist/github-contribution-grid-snake-dark.svg?palette=808080,38B000,1a1a1a # Cobra cinza no modo escuro, verde para contribuições, fundo escuro
+            dist/github-contribution-grid-snake.svg?palette=808080,38B000,1a1a1a  # Cobra cinza claro, contribuições verdes, fundo escuro
+            dist/github-contribution-grid-snake-dark.svg?palette=808080,38B000,1a1a1a  # Cobra cinza claro no modo escuro, contribuições verdes, fundo escuro
           
       - name: push github-contribution-grid-snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v3.1.0  # Usando a ação para enviar para o GitHub Pages
         with:
-          target_branch: output
-          build_dir: dist
+          target_branch: output  # A branch onde o arquivo gerado será armazenado
+          build_dir: dist  # Diretório com os arquivos gerados
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Usando o token de autenticação do GitHub
