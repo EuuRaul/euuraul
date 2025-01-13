@@ -12,19 +12,22 @@
 ### Estatísticas
 
 <p>
-  <img 
-    align="left" 
-    alt="GitHub Stats" 
-    height="150" 
-    style="padding-right: 10px;" 
-    src="https://github-readme-stats.vercel.app/api?username=euuraul&theme=dark&show_icons=true&hide_border=false&count_private=true" 
-  />
+  <a href="https://github.com/euuraul" target="_blank">
+    <img 
+      align="left" 
+      alt="GitHub Stats" 
+      height="150" 
+      style="padding-right: 10px;" 
+      src="https://github-readme-stats.vercel.app/api?username=euuraul&theme=dark&show_icons=true&hide_border=false&count_private=true" 
+    />
+  </a>
 
-  <img 
+  <a href="https://github.com/euuraul" target="_blank">
+    <img 
       align="left" 
       alt="GitHub Stats" 
       height="150" 
       src="https://github-readme-stats.vercel.app/api/top-langs/?username=euuraul&theme=dark&show_icons=true&hide_border=false&layout=compact" 
-  />
-
+    />
+  </a>
 </p>
