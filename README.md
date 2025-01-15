@@ -38,3 +38,9 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/euuraul/euuraul/output/github-contribution-grid-snake-dark.svg">
   <img align="center" alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/euuraul/euuraul/output/github-contribution-grid-snake.svg">
 </picture>
+
+<!-- #estatisticas diferenciadas
+| ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=euuraul&theme=dark) |
+
+| ![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=euuraul&theme=dark) | ![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=euuraul&hide=Html&theme=dark)
+   -->
