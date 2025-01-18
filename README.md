@@ -2,7 +2,7 @@
 
 **`Aspirante a Cientista de Dados`**
 
-<small>Me chamo Raul Victor, tenho 16 anos e estou cursando o curso de Python para Data Science. Disponibilizado pela Alura. Estou focando em aprender no momento linguagens e práticas utilizadas no desenvolvimento da Ciência de Dados. Meu objetivo é aplicar esse conhecimento para impactar o mundo positivamente e, quem sabe, crescer ainda mais trabalhando na área.<small>
+<small>Me chamo Raul Victor, tenho 17 anos e estou cursando o curso de Python para Data Science. Disponibilizado pela Alura. Estou focando em aprender no momento linguagens e práticas utilizadas no desenvolvimento da Ciência de Dados. Meu objetivo é aplicar esse conhecimento para impactar o mundo positivamente e, quem sabe, crescer ainda mais trabalhando na área.<small>
 
 ---
 
