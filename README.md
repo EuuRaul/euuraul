@@ -1,47 +1,27 @@
-## Olá! Bem-vindo(a) ao meu Github 🤍
+# Bem-vindo ao meu Portfólio! 🚀
 
-**`Aspirante a Cientista de Dados`**
+Olá! 👋 Sou *Raul Victor, estudante de Informática no **IFRN*.
 
-<small>Me chamo Raul Victor, tenho 17 anos e estou cursando o curso de Python para Data Science. Disponibilizado pela Alura. Estou focando em aprender no momento linguagens e práticas utilizadas no desenvolvimento da Ciência de Dados. Meu objetivo é aplicar esse conhecimento para impactar o mundo positivamente e, quem sabe, crescer ainda mais trabalhando na área.<small>
+Foco atual: *Análise de Dados. Utilizo o **Excel Avançado* para gerar insights estratégicos e dashboards profissionais.
 
 ---
 
-### Linguagens e Tecnologias
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40"/> <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" width="40" height="40"/>
+### 🛠️ Tecnologias e Ferramentas
+![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![IFRN](https://img.shields.io/badge/IFRN-2F7B31?style=for-the-badge&logo=github&logoColor=white)
 
-### Estatísticas
+---
 
-<p>
-  <a href="https://github.com/euuraul" target="_blank">
-    <img 
-      align="left" 
-      alt="GitHub Stats" 
-      height="150" 
-      style="padding-right: 10px;" 
-      src="https://github-readme-stats.vercel.app/api?username=euuraul&theme=dark&show_icons=true&hide_border=false&count_private=true" 
-    />
-  </a>
+### 📉 Atividade no GitHub
 
-  <a href="https://github.com/euuraul" target="_blank">
-    <img 
-      align="left" 
-      alt="GitHub Stats" 
-      height="150" 
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=euuraul&theme=dark&show_icons=true&hide_border=false&layout=compact" 
-    />
+<p align="left">
+  <a href="https://github.com/euuraul">
+    <img height="150em" src="https://github-readme-stats.vercel.app/api?username=euuraul&show_icons=true&theme=dark&count_private=true"/>
   </a>
 </p>
 
-<!-- 
-#Jogo da Cobrinha
-<picture align="center">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/euuraul/euuraul/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/euuraul/euuraul/output/github-contribution-grid-snake-dark.svg">
-  <img align="center" alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/euuraul/euuraul/output/github-contribution-grid-snake.svg">
-</picture>
+---
 
-#estatisticas diferenciadas
-| ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=euuraul&theme=dark) |
-
-| ![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=euuraul&theme=dark) | ![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=euuraul&hide=Html&theme=dark)
-   -->
+📫 *LinkedIn:* [Acesse meu perfil profissional](COLE_AQUI_O_LINK_DO_SEU_LINKEDIN)
