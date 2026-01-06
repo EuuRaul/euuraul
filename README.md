@@ -2,7 +2,7 @@
 
 Olá! 👋 Sou **Raul Victor**, estudante de Informática no **IFRN**.
 
-Atualmente, meu foco é a **Análise de Dados**. Utilizo o **Microsoft Excel** e o **Google Sheets** para transformar dados brutos em insights estratégicos e dashboards profissionais.
+Atualmente, meu foco é a **Análise de Dados**. Buscando transformar curiosidade em conhecimento técnico. Atualmente, estou focado em construir uma base sólida em tecnologia e documentar cada passo da minha evolução aqui no GitHub.
 
 ---
 
