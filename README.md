@@ -1,28 +1,18 @@
-# Raul Victor 🚀
+# Bem-vindo ao meu Portfólio! 🚀
 
-Estudante de Informática no **IFRN**. Atualmente focado em **Análise de Dados** com **Microsoft Excel** e **Google Sheets**.
+Olá! 👋 Sou **Raul Victor**, estudante de Informática no **IFRN**.
 
----
-
-### 🛠️ Ferramentas
-<table>
-  <tr>
-    <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/microsoftexcel/microsoftexcel-original.svg" width="30px"/></td>
-    <td><b>Microsoft Excel</b></td>
-    <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlesheets/googlesheets-original.svg" width="30px"/></td>
-    <td><b>Google Sheets</b></td>
-  </tr>
-</table>
+Atualmente, meu foco é a **Análise de Dados**. Utilizo o **Microsoft Excel** e o **Google Sheets** para transformar dados brutos em insights estratégicos e dashboards profissionais.
 
 ---
 
-### 📈 Atividade
-![Estatísticas](https://github-readme-stats.vercel.app/api?username=euuraul&show_icons=true&theme=dark&hide_border=true)
+### 🛠️ Tecnologias e Ferramentas
+![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![Google Sheets](https://img.shields.io/badge/Google_Sheets-34A853?style=for-the-badge&logo=google-sheets&logoColor=white)
 
 ---
 
 ### 👋 Contato
-<a href="COLE_SEU_LINK_AQUI">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" width="25px" align="center"/> 
-  <b>LinkedIn</b>
+<a href="https://www.linkedin.com/in/euuraul/">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
